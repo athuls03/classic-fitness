@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Fitness Club</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+    <script src="js/jquery-3.7.1.min.js"></script> 
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> 
+
+    <link rel="stylesheet" href="style.css">
+<head>
+<body>
+<!--header -->
+<header class="header">
+    <a href="index.html" class="logo">Classic Fitness Club</a>
+    <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#about"> about</a>
+        <a href="#services">services</a>
+        <a href="#pricing">pricing</a>
+        <a href="#team">team</a>
+        <a href="#register">register</a>
+    </nav>
+    <div id="menu" class="fas fa-bars"></div>
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>find <br> your <br> <span>fit</span> </h3>
+        <p>Transform your body, transform your life.</p>
+        
+    </div>
+    </section>
+    
+    <!-- about -->
+    <section class="about" id="about">
+        <div class="row">
+            <div class="content">
+                <span>about us</span>
+                <h3>Invest in your health. You're worth it.</h3>
+                <p>At Classic Fitness Club, we're passionate about empowering individuals to achieve 
+                their fitness goals and live healthier, more fulfilling lives. We provide 
+                personalized training plans, expert nutrition guidance, and a supportive 
+                community to help you every step of the way. Whether you're a seasoned athlete
+                or just starting your fitness journey, we're here to help you unlock your full potential.</p>
+            <ul>
+                <li> <i class="far fa-check-square"></i> how to support your immune system </li>
+                <li> <i class="far fa-check-square"></i> a guide to 30 day fitness & workout challenges</li>
+                <li> <i class="far fa-check-square"></i> guide to ease your back in the gym </li>
+                <li> <i class="far fa-check-square"></i> the mental health benefits of exercise in home </li>
+            </ul>
+            <!-- <a href="#" class="btn">read more</a> -->
+            </div>
+            <div class="image">
+                <img src="images/gym.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE -->
+    <section class="services" id="services">
+        <h1 class="heading">our services</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/Strength training.webp" alt="Strength training">
+            <div class="content">
+                <h3>Strength training</h3>
+                <p>Feel stronger, more energetic, and more confident with strength training. It improves physical function, reduces injury risk, and enhances your quality of life.</p>
+                <a href="strength.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/yoga.webp" alt="yoga">
+            <div class="content">
+                <h3>yoga</h3> I
+                <p>Yoga is a powerful tool for stress reduction and relaxation. It can calm the mind, improve focus and concentration, and promote better sleep.</p>
+                <a href="yoga.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/dance.webp" alt="dance">
+            <div class="content">
+                <h3>dance</h3>
+                <p>Dance is a powerful tool for stress reduction and mental well-being. It can improve mood, reduce anxiety, and promote relaxation. </p>
+                <a href="dance.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/nutrition.jpeg" alt="nutrition">
+            <div class="content">
+                <h3>nutrition</h3>
+                <p>Good nutrition fuels your body with essential nutrients, supporting healthy weight, a strong immune system, improved energy, and reduced risk of chronic disease.</p>
+                <a href="nutrition.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/cardio.webp" alt="cardio">
+            <div class="content">
+                <h3>cardio</h3>
+                <p>Cardio strengthens the heart, improves lung function, and aids in weight management. It can also reduce the risk of chronic diseases, boost energy levels, and enhance mental well-being.</p>
+                <a href="cardio.html" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+                <img src="images/personal trainer.webp" alt="">
+            <div class="content">
+                <h3>personal trainer</h3>
+                <p>A personal trainer provides personalized workouts and expert support, helping you stay motivated and achieve your unique fitness goals, whether it's building muscle, losing weight, or improving performance.</p>
+                <a href="ptraining.html" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="counter">
+        <div class="box-container">
+            <div class="box">
+                <h3>105</h3>
+                <p>awards</p>
+            </div>
+            <div class="box">
+                <h3>100</h3>
+                <p>machines</p>
+            </div>
+            <div class="box">
+                <h3>119</h3>
+                <p>trainings</p>
+            </div>
+            <div class="box">
+                <h3>10</h3>
+                <p>instructors</p>
+            </div>
+        </div>
+    </section>
+    <!-- PRICE -->
+    <section class="pricing" id="pricing">
+        <h1 class="heading">pricing plan</h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>basic plan</h3>
+        <div class="price"><span>₹ </span>3000 </div>
+            <h3 class="month">3 months</h3>
+            <div class="list">
+                <p><i class="fas fa-check"></i> yoga</p>
+                <p><i class="fa fa-check"></i> cardio</p>
+                <p><i class="fa fa-check"></i> weight lifting</p>
+                <p><i class="fa fa-times"></i> personal training</p>
+                <p><i class="fas fa-times"></i> nutrition</p>
+            </div>
+        <!-- <a href="#" class="btn">choose the plan</a> -->
+        </div>
+        <div class="box">
+            <h3>standard plan</h3>
+            <div class="price"><span>₹ </span>9000</div>
+                <h3 class="month">6 months</h3>
+        <div class="list">
+            <p><i class="fas fa-check"></i> yoga</p>
+            <p><i class="fa fa-check"></i> cardio</p>
+            <p><i class="fa fa-check"></i> weight lifting</p>
+            <p><i class="fa fa-check"></i>personal training</p>
+            <p><i class="fa fa-times"></i> nutrition</p>
+        </div>
+        <!-- <a href="#" class="btn">choose the plan</a> -->
+        </div>
+        <div class="box">
+            <h3>premium plan</h3>
+            <div class="price"><span>₹ </span>24000</div>
+                <h3 class="month">12 months</h3>
+                <div class="list">
+                    <p><i class="fas fa-check"></i> yoga</p>
+                    <p><i class="fas fa-check"></i> cardio</p>
+                    <p><i class="fas fa-check"></i> weight lifting</p>
+                    <p><i class="fas fa-check"></i> personal training</p>
+                    <p><i class="fas fa-check"></i> nutrition</p>
+                </div>
+            <!-- <a href="#" class="btn">choose the plan</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+<section class="team" id="team">
+    <h1 class="heading">Our Team</h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/trainer.webp" alt="Erica Lacy">
+            </div>
+            <div class="content">
+                <h2>john thomas</h2>
+                <p>trainer</p>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/trainer 2.webp" alt="Dev Lacy">
+            </div>
+            <div class="content">
+                <h2>sara sanso</h2>
+                <p>trainer</p>
+                
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/nutritionists.jpg" alt="Dev Lacy">
+            </div>
+            <div class="content">
+                <h2>susan Miller</h2>
+                <p>nutritionist</p>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- REGISTER -->
+<section class="register" id="register">
+    <h1 class="heading">register now</h1>
+    <form action="#" id="registrationForm">
+        <div class="inputBox">
+            <input id="firstName" type="text" placeholder="first name" required>
+            <input id="lastName" type="text" placeholder="last name" required>
+        </div>
+        <div class="inputBox">
+            <input id="email" type="email" placeholder="your email" required>
+            <input id="phoneNumber" type="number" placeholder="your number" required>
+        </div>
+        <select id="gender" name="gender">
+            <option value="" disabled selected>Select Gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <select name="member" id="member">
+            <option value="plan">Membership</option>
+            <option value="1 month">1 month</option>
+            <option value="3 months">3 months</option>
+            <option value="6 months">6 months</option>
+            <option value="12 months">12 months</option>
+        </select>
+        <textarea name="" id="message" cols="30" rows="10" placeholder="your message"></textarea>
+        <button type="submit" class="btn" onclick="Register()" >Register</button>
+        
+         
+    </form>
+    <div id="successMessage" class="success-message" ></div>
+
+</section>
+
+
+<!-- 
+<footer>
+    <p>&copy; 2025 Classic Fitness Club. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</footer> -->
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-info">
+            <h3>Classic Fitness Club</h3>
+            <p>Near Stadium Bus stand, Palakkad- 678001</p>
+            <p>Phone: 9876543210</p>
+            <p>Email: info@classicfitness.com</p>
+        </div>
+        <div class="footer-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">Team</a>
+            <a href="#">Register</a>
+            <!-- <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a> -->
+        </div>
+        <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2025 Classic Fitness Club. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>

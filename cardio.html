@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardio Testimonials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Basic styling for the testimonials */
+        .testimonials {
+            padding: 5rem 7%;
+            text-align: center;
+            background-color: #111;
+        }
+
+        .testimonials .heading {
+            font-size: 4rem;
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: bolder;
+            margin-bottom: 3rem;
+        }
+
+        .testimonial-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+            gap: 2rem;
+        }
+
+        .testimonial {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+            text-align: left; /* Align text within testimonials */
+        }
+
+        .testimonial .quote-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .testimonial p {
+            font-size: 1.6rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .testimonial .author {
+            font-weight: bold;
+            font-size: 1.4rem;
+            text-align: right; /* Align author to the right */
+        }
+
+        footer{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--header -->
+    <header class="header">
+        <a href="index.html" class="logo">Classic Fitness Club</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">home</a>
+            <a href="index.html"> about</a>
+            <a href="index.html">services</a>
+            <a href="index.html">pricing</a>
+            <a href="index.html">team</a>
+            <a href="index.html">register</a>
+        </nav>
+        <div id="menu" class="fas fa-bars"></div>
+    </header>
+
+    <img src="images/cardio-test.jpeg" alt="Cardio-testimonials"  height="45%" width="100%">
+
+    <section class="testimonials" id="cardio-testimonials">
+        <h1 class="heading">Cardio Testimonials</h1>
+
+        <div class="testimonial-container">
+
+            <div class="testimonial">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>"Before I started regular cardio workouts, I would get tired so quickly. Now, I can run longer, keep up with my kids, and feel more energetic throughout the day. It’s incredible how much my stamina has improved!"</p>
+                <p class="author">- Sonu M.</p>
+            </div>
+
+            <div class="testimonial">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>"Cardio has been a game-changer in my weight loss journey. Combined with a healthy diet, I’ve lost 30 pounds in 6 months. I love how it keeps me active and motivated!"</p>
+                <p class="author">- Midhu L.</p>
+            </div>
+
+            <div class="testimonial">
+                <i class="fas fa-quote-left quote-icon"></i>
+                <p>"I never realized how much cardio could help with stress until I tried it. Whether it’s cycling or running, it clears my mind and lifts my mood every time. It’s my favorite way to reset after a long day."</p>
+                <p class="author">- Amal B.</p>
+            </div>
+
+            </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2025 Classic Fitness Club. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
